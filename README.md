@@ -13,7 +13,7 @@
 
 목적지로 부터 시작지점을 찾아가는 백트래킹을 이용하지 않고 완전 탐색을 이용하여 시작지점으로 부터 목적지를 찾아감
 
-##[길이 존재하는가](https://github.com/ljiwoo59/algorithm_practice/tree/main/findpath)
+## [길이 존재하는가](https://github.com/ljiwoo59/algorithm_practice/tree/main/findpath)
 
 0 에서 99로 가는 길이 존재하는지 알아내기
 
