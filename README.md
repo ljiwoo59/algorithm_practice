@@ -66,3 +66,15 @@ deque를 이용하여 양방향에서 입력 및 출력을 이용함
 [백준 14501](https://www.acmicpc.net/problem/14501)
 
 동적 계획법을 이용하여 날마다의 최대 값을 넘겨받아 총 최대 금액의 값을 구함
+
+## [평범한 배낭](https://github.com/ljiwoo59/algorithm_practice/tree/main/napsack)
+
+[백준 12865](https://www.acmicpc.net/problem/12865)
+
+동적 계획법을 이용하여 짊어들 수 있는 최대의 무게 안에서 최대 가치값 구함
+
+
+
+
+
+
