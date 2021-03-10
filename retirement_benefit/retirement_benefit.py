@@ -12,17 +12,8 @@ for i in range(days):
 # DP
 d = [0] * (days + 1)
 for i in range(days):
-    if d[i] == 0:
-        d[i] = d[i - 1]
-    d[i] = max(d[i], d[i - 1])
     if (i + p[i]) <= days:
-        d[i + p[i]] = max(d[i] + b[i], d[i + p[i]])
+        for j in range(i + p[i], days + 1):
+            d[j] = max(d[i] + b[i], d[j])
 
-print(max(d))
-
-
-
-
-
-
-
+print(d[days])
