@@ -73,7 +73,11 @@ deque를 이용하여 양방향에서 입력 및 출력을 이용함
 
 동적 계획법을 이용하여 짊어들 수 있는 최대의 무게 안에서 최대 가치값 구함
 
+## [정수 삼각형](https://github.com/ljiwoo59/algorithm_practice/tree/main/int_triangle)
 
+[백준 1932](https://www.acmicpc.net/problem/1932)
+
+동적 계획법을 이용하여 아래층 부터 위층으로 올라가며 최대값 계산
 
 
 
