@@ -64,6 +64,7 @@ def fillmap(total, i, j):
         total = fillmap(total, i, j + 1)
     return total
 
+
 for i in range(test_num):
     row, col = map(int, input().split())
     map_arr = np.empty(shape = [0, col])
