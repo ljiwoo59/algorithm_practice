@@ -81,20 +81,26 @@ deque를 이용하여 양방향에서 입력 및 출력을 이용함
 
 ## [소풍](https://github.com/ljiwoo59/algorithm_practice/tree/main/picnic)
 
-From 알고리즘 문제해결 전략 
-
-각 학생들의 쌍에 대해 이들이 서로 친구인지 여부가 주어질 때, 학생들을 짝지을 수 있는 방법의 수 계산
-짝이 되는 학생들이 일부만 다르더라도 다른 방법
-
-입력 :
-* 테스트 케이수의 수 C (C < 50)
-* 학생의 수 n (2 <= n <= 10) 와 친구 쌍의 수 m (0 <= m <= (n(n - 1) / 2))
-* m 개의 정수 쌍으로 서로 친구인 두 학생의 번호 (번호는 0 부터 n - 1)
-
-출력 :
-* 짝지어줄 수 있는 방법의 수
+[알고스팟 PICNIC](https://www.algospot.com/judge/problem/read/PICNIC) 
 
 재귀 함수를 이용하여 배열의 콤비네이션을 중복되지 않도록 완전 탐색
+
+## [게임판 덮기](https://github.com/ljiwoo59/algorithm_practice/tree/main/boardcover)
+
+[알고스팟 BOARDCOVER](https://www.algospot.com/judge/problem/read/BOARDCOVER)
+
+4가지 모양을 하나씩 넣어보는 재귀 함수를 이용하여 완전 탐색
+* 마지막 input case는 output 이 나오지 않아 탐색 수를 줄여야 할듯 함
+
+## [Synchronizing Clocks](https://github.com/ljiwoo59/algorithm_practice/tree/main/clocksync)
+
+[알고스팟 CLOCKSYNC](https://www.algospot.com/judge/problem/read/CLOCKSYNC)
+
+0 부터 9 까지의 버튼 배열에 버튼을 1 에서 4 번 (4번 누른 것은 0번 누른 것과 같다) 까지 누르는 경우를 완전 탐색하여 시계가 모두 12시가 되는 제일 최소의 버튼 누른 값을 구함
+* 완전 탐색 시간이 느려 다른 방법을 써야 할듯 
+
+
+
 
 
 
