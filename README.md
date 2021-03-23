@@ -99,7 +99,11 @@ deque를 이용하여 양방향에서 입력 및 출력을 이용함
 0 부터 9 까지의 버튼 배열에 버튼을 1 에서 4 번 (4번 누른 것은 0번 누른 것과 같다) 까지 누르는 경우를 완전 탐색하여 시계가 모두 12시가 되는 제일 최소의 버튼 누른 값을 구함
 * 완전 탐색 시간이 느려 다른 방법을 써야 할듯 
 
+## [쿼드 트리 뒤집기](https://github.com/ljiwoo59/algorithm_practice/tree/main/quadtree)
 
+[알고스팟 QUADTREE](https://www.algospot.com/judge/problem/read/QUADTREE)
+
+x를 만나면 새로운 4방면 분할 상자이므로 재귀를 통해 정리
 
 
 
