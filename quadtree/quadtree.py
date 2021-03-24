@@ -41,9 +41,7 @@ def quadtree(arr, index):
         index += 1
 
 
-
 test_num = int(input())
-
 for i in range(test_num):
     map_arr = [char for char in input()]
     if len(map_arr) == 1:
