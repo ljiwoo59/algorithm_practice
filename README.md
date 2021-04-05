@@ -105,6 +105,93 @@ deque를 이용하여 양방향에서 입력 및 출력을 이용함
 
 x를 만나면 새로운 4방면 분할 상자이므로 재귀를 통해 정리
 
+## [울타리 잘라내기](https://github.com/ljiwoo59/algorithm_practice/tree/main/fence)
+
+[알고스팟 FENCE](https://www.algospot.com/judge/problem/read/FENCE)
+
+동적계획법을 통해 만들 수 있는 연속적인 정사각형의 최대 값 구함
+
+## [Flatten](https://github.com/ljiwoo59/algorithm_practice/tree/main/flatten)
+
+높은 곳과 낮은 곳 간격차 줄이기
+
+입력 :
+* 횟수와 상자의 높이값
+
+출력 :
+* 최고점과 최저점의 차이
+
+주어진 횟수 동안 최고점 - 1, 최저점 + 1을 하여 간격차를 줄인다
+
+## [View](https://github.com/ljiwoo59/algorithm_practice/tree/main/view)
+
+조망권이 확보된 세대 구하기
+
+입력 :
+* 배열 길이, 건물 높이
+
+출력 :
+* 조망권이 확보된 세대 수
+
+배열의 첫과 끝에서 두번째 자리까지는 건물이 없고, 각 세대간 2칸의 빈공간이 확보될 시 조망권이 확보되기 때문에 배열을 돌면서 조건 충족을 확인함
+
+## [최빈수 구하기](https://github.com/ljiwoo59/algorithm_practice/tree/main/frequency)
+
+가장 많이 나타나는 수 구하기
+
+입력 :
+* 숫자
+
+출력 :
+* 최빈수
+
+숫자는 0 부터 100 까지 있기 때문에 101 크기의 frequency 배열을 선언, 각 인덱스에 해당하는 숫자가 입력배열에 있는 총 수를 count 함수를 사용하여 구함
+
+## [Sum](https://github.com/ljiwoo59/algorithm_practice/tree/main/sum)
+
+각 행, 열, 양쪽 대각선의 합 중에서 큰값 구하기
+
+입력 :
+* 100 \* 100 숫자
+
+출력 :
+* 최대값
+
+각 행 마다의 합, 각 열 마다으 합, 왼쪽 아래 대각선의 합, 오른쪽 아래 대각선의 합을 구한 후 최대값을 구함
+
+## [Magnetic](https://github.com/ljiwoo59/algorithm_practice/blob/main/magnetic/magnetic.py)
+
+각 극을 가지 자성체들이 충돌하여 남아있는 교착상태의 개수 구하기
+
+입력 :
+* 100 \* 100 의 0 (빈공간), 1 (N극), 2(S극)
+
+출력 :
+* 교착상태 수
+
+시간이 지나면 N극은 아래로, S극은 위로 떨어지는데, N극과 S극이 서로 만나면 교착상태가 되므로 재귀를 통해 한칸씩 올리거나 내리면서 최종 교착상태를 만든 후 개수를 구함
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
