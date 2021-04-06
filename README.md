@@ -183,7 +183,7 @@ x를 만나면 새로운 4방면 분할 상자이므로 재귀를 통해 정리
 
 각 열과 행을 돌면서 길이에 맞는 회문이 있는지 완전 탐색
 
-## [Palinedrome2](https://github.com/ljiwoo59/algorithm_practice/tree/main/palindrome2)
+## [Palindrome2](https://github.com/ljiwoo59/algorithm_practice/tree/main/palindrome2)
 
 가장 긴 회문 찾기
 
