@@ -171,6 +171,35 @@ x를 만나면 새로운 4방면 분할 상자이므로 재귀를 통해 정리
 
 시간이 지나면 N극은 아래로, S극은 위로 떨어지는데, N극과 S극이 서로 만나면 교착상태가 되므로 재귀를 통해 한칸씩 올리거나 내리면서 최종 교착상태를 만든 후 개수를 구함
 
+## [Palindrome](https://github.com/ljiwoo59/algorithm_practice/tree/main/palindrome)
+
+회문 찾기
+
+입력 :
+* 회문 길이와 8 \* 8 의 알파벳
+
+출력 :
+* 회문의 수
+
+각 열과 행을 돌면서 길이에 맞는 회문이 있는지 완전 탐색
+
+## [Palinedrome2](https://github.com/ljiwoo59/algorithm_practice/tree/main/palindrome2)
+
+가장 긴 회문 찾기
+
+입력 :
+* 100 \* 100 의 알파벳
+
+출력 :
+* 가장 긴 회문의 길이
+
+길이 100 부터 1 까지 줄여나가면서 각 열과 행을 돌며 회문 발견 시 루프 종료
+
+
+
+
+
+
 
 
 
